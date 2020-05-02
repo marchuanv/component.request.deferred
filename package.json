@@ -1,0 +1,28 @@
+{
+  "name": "component.request.deferred",
+  "version": "1.0.0",
+  "description": "",
+  "main": "component.request.deferred.js",
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.13.4"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marchuanv/component.request.deferred.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marchuanv/component.request.deferred/issues"
+  },
+  "homepage": "https://github.com/marchuanv/component.request.deferred#readme",
+  "dependencies": {
+    "utils": "git+https://github.com/marchuanv/utils.git",
+    "logging": "git+https://github.com/marchuanv/logging.git",
+    "component.request": "git+https://github.com/marchuanv/component.request.git"
+  }
+}
