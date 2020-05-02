@@ -1,6 +1,6 @@
 const componentRequestDeferred= require("./component.request.deferred.js");
 const logging = require("logging");
-logging.config(["Sending Deferred Request", "Sending Request"]);
+logging.config(["Re-Sending Deferred Request", "Sending Request"]);
 (async()=>{
 
     await componentRequestDeferred.send({
