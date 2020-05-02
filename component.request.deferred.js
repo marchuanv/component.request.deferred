@@ -1,4 +1,3 @@
-const utils = require("utils");
 const logging = require("logging");
 const comnponentRequest = require("component.request");
 
