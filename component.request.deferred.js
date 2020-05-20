@@ -1,6 +1,6 @@
-const logging = require("logging");
 const comnponentRequest = require("component.request");
-
+const logging = require("logging");
+logging.config.add("Re-Sending Deferred Request");
 module.exports = { 
     send: ({ host, port, path, method, headers, data }) => {
         return new Promise(async (resolve)=>{
