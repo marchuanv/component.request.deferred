@@ -1,5 +1,5 @@
 const request = require("component.request");
-const logging = require("logging");
+const logging = require("component.logging");
 module.exports = { 
     send: ({ host, port, path, method, headers, data }) => {
         return new Promise(async (resolve)=>{
