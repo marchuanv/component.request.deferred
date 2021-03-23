@@ -1,7 +1,7 @@
 const component = require("component");
 let sendRequest;
-component.register({moduleName: "component.request.deferred"}).then( async (requestDeferred) => {
-    const request = await component.load({ moduleName: "component.request.deferred"});
+component.register({moduleName: "component.request.deferred"}).then( async ({ requestDeferred }) => {
+    const { request } = await component.load({ moduleName: "component.request.deferred"});
     const { host, port } = requestDeferred;
     sendRequest = ({ path, method, headers, data }) => {
         return new Promise(async (resolve)=>{
